@@ -1,0 +1,28 @@
+{
+  "name": "ryon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vann-Dev/Ryon.git"
+  },
+  "keywords": [],
+  "author": "Vann-Dev",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Vann-Dev/Ryon/issues"
+  },
+  "homepage": "https://github.com/Vann-Dev/Ryon#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.2.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "path": "^0.12.7",
+    "util": "^0.12.4"
+  }
+}
