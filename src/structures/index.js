@@ -10,7 +10,8 @@ const globPromise = promisify(glob);
 const client = new Client({
     intents: [
         Intents.FLAGS.GUILDS,
-        Intents.FLAGS.GUILD_PRESENCES
+        Intents.FLAGS.GUILD_PRESENCES,
+        Intents.FLAGS.GUILD_MEMBERS
     ],
     shards: "auto",
     allowedMentions: {
