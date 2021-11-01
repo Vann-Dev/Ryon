@@ -23,6 +23,7 @@ const client = new Client({
 
 client.slashCommands = new Collection();
 client.config = require("../../config.json");
+client.utils = require("../utils/message");
 
 process.on('unhandledRejection', error => { console.log(error) });
 process.on('uncaughtException', error => { console.log(error) });
